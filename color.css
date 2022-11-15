@@ -1,0 +1,23 @@
+::selection {
+  background: #707;
+  color: gold;
+}
+
+:root {
+  color: #707;
+  background: gold;
+}
+
+:any-link {
+  color: inherit;
+  text-decoration-color: currentColor;
+  text-shadow: 1vw 1vh 34vh #edb;
+}
+
+:focus {
+  outline-color: currentColor;
+}
+
+.shadow {
+  text-shadow: 1pt 2ex 0 turquoise, 1pt 1ex 0 mediumaquamarine;
+}
